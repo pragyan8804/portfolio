@@ -27,7 +27,8 @@ import {
 	FaGithub,
 	FaLinkedin,
 	FaXTwitter,
-	FaNewspaper
+	FaNewspaper,
+	FaLink,
 } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
@@ -55,4 +56,5 @@ export const iconLibrary: Record<string, IconType> = {
 	light: HiOutlineSun,
 	dark: HiOutlineMoon,
 	cv: FaNewspaper,
+	link: FaLink,
 };
