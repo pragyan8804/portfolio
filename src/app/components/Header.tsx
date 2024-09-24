@@ -1,6 +1,5 @@
-"use client";
 
-import { useState, useEffect } from "react";
+
 import { Flex, ToggleButton } from "@/once-ui/components";
 import styles from '@/app/components/Header.module.scss';
 import { ThemeToggler } from "./ThemeToggler";
@@ -76,7 +75,7 @@ export const Header = ({ selectedSection }: { selectedSection: string }) => {
                 textVariant="body-default-s">
                 {/* Optional additional elements */}
             </Flex>
-            <ThemeToggler />
+            {/* <ThemeToggler /> */}
         </Flex>
     );
 };

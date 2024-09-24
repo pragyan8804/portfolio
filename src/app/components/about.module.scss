@@ -1,0 +1,38 @@
+.hover {
+    transition: var(--transition-property) var(--transition-duration-micro-medium) var(--transition-timing-function);
+
+    &:hover {
+        transform: translateX(var(--static-space-4));
+    }
+}
+
+@media (max-width: 1024px) {
+    .textAlign {
+        text-align: center;
+        /* Center align text on small screens */
+        margin-left: var(--static-space-4);
+        /* Add margin for small screens */
+        margin-right: var(--static-space-4);
+    }
+
+    .flexColumn {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blockAlign {
+        align-self: center;
+    }
+
+    .marginX {
+        margin-left: var(--static-space-4);
+        margin-right: var(--static-space-4);
+    }
+}
+
+.image {
+    border-radius: 16px;
+    object-fit: cover;
+    /* Ensure the image fills the container while maintaining aspect ratio */
+}

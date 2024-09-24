@@ -26,7 +26,10 @@ export const ThemeToggler = () => {
   }, []);
 
   return (
-   <Flex position="relative" zIndex={10}>
+   <Flex position="fixed" zIndex={10} style={{
+    top: '2rem', // Adjust the distance from the top
+    right: '2rem', // Adjust the distance from the right
+  }}>
   <IconButton
     icon={isDark ? "light" : "dark"} 
     onClick={toggleTheme}

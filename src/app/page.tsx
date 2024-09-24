@@ -46,8 +46,10 @@ export default function Home() {
 
     return (
         <>
-            <Background dots={false} lines={false} />
+            <Background dots={true} lines={false} />
             <Header selectedSection={selectedSection} />
+            
+            <ThemeToggler />
             
             <div id='about'>
                 <About />

@@ -26,7 +26,8 @@ import {
 import {
 	FaGithub,
 	FaLinkedin,
-	FaXTwitter
+	FaXTwitter,
+	FaNewspaper
 } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
@@ -52,5 +53,6 @@ export const iconLibrary: Record<string, IconType> = {
 	code: HiCommandLine,
 	briefcase: HiBriefcase,
 	light: HiOutlineSun,
-	dark: HiOutlineMoon
+	dark: HiOutlineMoon,
+	cv: FaNewspaper,
 };
