@@ -1,0 +1,70 @@
+.experienceLayout {
+    padding: 40px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.companyInfo {
+    max-width: 40%;
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .role {
+        color: #109fca;
+    }
+
+    .date {
+        color: #999;
+    }
+}
+
+.bulletPointsSection {
+    max-width: 55%;
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+.bullets {
+    list-style-type: disc;
+    padding-left: 20px;
+
+    li {
+        margin-bottom: 10px;
+        position: relative;
+
+        &::marker {
+            color: #109fca;
+        }
+    }
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.tags {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
+}
