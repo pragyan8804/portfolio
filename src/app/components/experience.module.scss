@@ -36,15 +36,19 @@
 }
 
 .bullets {
-    list-style-type: disc;
-    padding-left: 20px;
+    list-style-type: none; 
+    padding-left: 0; 
 
     li {
+        display: flex; 
+        align-items: center; 
         margin-bottom: 10px;
         position: relative;
 
-        &::marker {
-            color: #109fca;
+        &::before {
+            content: "•"; 
+            color: #109fca; 
+            margin-right: 10px; 
         }
     }
 }

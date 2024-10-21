@@ -66,13 +66,23 @@ export const Projects = () => {
                     gap="m"
                     className={styles.projectDetails}
                 >
-                    {/* Description */}
-                    <Text variant="body-default-l">
-                        MyJournal is a journaling app that allows users to log
-                        their thoughts, goals, and daily activities. It features
-                        theme customization, photo uploads, and end-to-end
-                        encryption for secure journaling.
-                    </Text>
+                    <ul className={styles.bullets}>
+                        <li>
+                            Developed a robust user authentication system,
+                            enabling secure sign-up and login processes to
+                            protect user data.
+                        </li>
+                        <li>
+                            Integrated cloud storage solutions to ensure that
+                            users' journal entries, images, and settings are
+                            safely stored and easily retrievable.
+                        </li>
+                        <li>
+                            Implemented a customizable theme feature, allowing
+                            users to personalize their journaling experience
+                            with various styles and colors.
+                        </li>
+                    </ul>
 
                     {/* Project Screenshots */}
                     <Flex
@@ -152,12 +162,23 @@ export const Projects = () => {
                     gap="m"
                     className={styles.projectDetails}
                 >
-                    {/* Description */}
-                    <Text variant="body-default-l">
-                        Expenz is a financial tracking app that helps users
-                        monitor their expenses, split the bills, and get
-                        insights into their spending habits.
-                    </Text>
+                    <ul className={styles.bullets}>
+                        <li>
+                            Developed comprehensive data visualization tools,
+                            including charts and graphs, to provide users with
+                            insights into their spending patterns.
+                        </li>
+                        <li>
+                            Implemented a bill-splitting feature that allows
+                            users to easily share expenses with friends and
+                            family, simplifying group payments.
+                        </li>
+                        <li>
+                            Integrated a budgeting tool that helps users set and
+                            track their financial goals, promoting better money
+                            management practices.
+                        </li>
+                    </ul>
 
                     {/* Project Screenshots */}
                     <Flex

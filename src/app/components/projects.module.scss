@@ -43,3 +43,21 @@
         justify-content: center;
     }
 }
+
+.bullets {
+    list-style-type: none; 
+    padding-left: 0; 
+
+    li {
+        display: flex; 
+        align-items: center; 
+        margin-bottom: 10px;
+        position: relative;
+
+        &::before {
+            content: "•";
+            color: #109fca;
+            margin-right: 10px;
+        }
+    }
+}
